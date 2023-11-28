@@ -1,8 +1,8 @@
 const axios = require('axios');
 // require('dotenv').config();
-const apiKey = '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';
+const apiKey = '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';
 const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
-const promptText = "WHY IT IS NOT WORKING.";
+const promptText = "send me html boiler code";
 async function queryChatGPT(prompt) {
     try {
         const response = await axios.post(apiUrl, {
